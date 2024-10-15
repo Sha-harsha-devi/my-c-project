@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main(){
+int a,b,c,d,largest;
+printf("enter four numbers:");
+scanf("%d %d %d %d",&a,&b,&c,&d);
+if(a>b&a>c&a>d)
+largest=a;
+else if (b>a&b>c&b>d)
+largest=b;
+else if (c>a&c>b&c>d)
+largest=c;
+else 
+largest=d;
+printf("largest num is %d",largest);
+}
